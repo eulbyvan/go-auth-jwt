@@ -31,7 +31,7 @@ func main() {
 	// setup get user profile route
 	userRouter.GET("/:id/profile", profileHandler)
 
-	// start server
+	// start serverr
 	r.Run(":8080")
 }
 
